@@ -232,9 +232,7 @@ public class FileMap<K, V> implements Map<K, V>, Serializable {
         List<V> values = new ArrayList<>();
         for (K key : keyToFileMap.keySet()) {
             V value = get(key);
-            if (value != null) {
-                values.add(value);
-            }
+            values.add(value);
         }
         return values;
     }
