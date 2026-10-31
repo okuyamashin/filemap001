@@ -1,0 +1,28 @@
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Build directories
+target/
+build/
+out/
+
+# Storage directories created by FileMap
+.filemap/
+demo_storage/
+
+# OS files
+.DS_Store
+Thumbs.db
